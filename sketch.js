@@ -34,7 +34,7 @@ function setup() {
    {
     plinkos.push(new Plinko(j,375));
    }
-   
+   Engine.run(engine);
 }
 
 function draw() {
