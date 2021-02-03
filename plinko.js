@@ -2,7 +2,7 @@ class Plinko{
     constructor(x,y){
         var bounce={
             restitution:0.3,
-            isStatic:false,
+            isStatic:true,
             density:1.2,
             friction:0.5
         }
